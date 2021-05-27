@@ -1,0 +1,61 @@
+.container-fluid{
+    height: 50em;
+}
+
+.row{
+    height: 100%;
+}
+
+.col-md-3{
+    background-color: #001454;
+}
+
+#mid{
+    background-color: #4aa19f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 85%;
+}
+
+.card-header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+    font-weight: 600;
+}
+
+#todoInput{
+    width: 90%;
+}
+
+ul li.list-group-item{
+    background-color: #e3e3e3;
+}
+
+ul li:hover{
+    background-color: #dbdbdb;
+}
+
+.list-group-item{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-group-item span{
+    display: flex;
+    
+}
+
+.done{
+    text-decoration: line-through;
+    opacity: 40%;
+}
